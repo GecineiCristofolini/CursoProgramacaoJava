@@ -1,12 +1,6 @@
 INDEX VERSION 1.131+C:\Gecinei\Curso Java\ProjetosCurso\.metadata\.plugins\org.eclipse.jdt.core
-2524174724.index
-4171255243.index
-3400682701.index
-3925462389.index
-1865797976.index
-3107367170.index
-137855682.index
 1775670997.index
-2455762627.index
+2715631417.index
 3510846143.index
-591744942.index
+1865797976.index
+485099434.index
