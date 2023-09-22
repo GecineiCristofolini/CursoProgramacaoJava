@@ -28,12 +28,12 @@ public class ProgramConect2 {
 				System.out.println(rs.getInt("Id") + " |" + rs.getString("Name"));
 			}
 			
-			rss = st.executeQuery("select * from seller");
+			rss = st.executeQuery("select department.Id, department.Name,seller.Name  FROM seller INNER JOIN department ON department.Id = seller.DepartmentId;");
 			System.out.println();
 			System.out.println("Seller");
 			
 			while (rss.next()) {
-				System.out.println(rss.getInt("Id") + " |" + rss.getString("Name")+"|" + rss.getString("Email")+"|" + rss.getString("BaseSalary") );
+				System.out.println(rss.getInt("Id") + " |" + rss.getString("department.Name") + " |" + rss.getString("seller.Name"));
 			}
 			
 		}
