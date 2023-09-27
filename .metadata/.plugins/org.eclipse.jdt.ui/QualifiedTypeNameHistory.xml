@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="boardgame.Board"/>
-    <fullyQualifiedTypeName name="chess.pieces.Rook"/>
-    <fullyQualifiedTypeName name="boardgame.BoardException"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="chess.Color"/>
-    <fullyQualifiedTypeName name="chess.pieces.King"/>
     <fullyQualifiedTypeName name="boardgame.Position"/>
     <fullyQualifiedTypeName name="boardgame.Piece"/>
     <fullyQualifiedTypeName name="chess.ChessPosition"/>
@@ -58,6 +52,12 @@
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.sql.Statement"/>
-    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="application.ProgramConect"/>
+    <fullyQualifiedTypeName name="db.DB"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.lang.InternalError"/>
 </qualifiedTypeNameHistroy>

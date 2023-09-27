@@ -8,8 +8,8 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="getHttpGET"/>
 		<list key="findhistory">
-			<item value="getHttpGET"/>
 			<item value="package application;"/>
+			<item value="getHttpGET"/>
 			<item value="Enter the number of tax payers:"/>
 		</list>
 		<list key="replacehistory">
