@@ -51,8 +51,8 @@ public class Endereco {
         return gia;
     }
 
-    public Endereco setCep(String cep8) {
-        this.cep = cep8;
+    public Endereco setCep(String cep) {
+        this.cep = cep;
         return this;
     }
 

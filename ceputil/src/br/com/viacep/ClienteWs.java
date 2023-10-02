@@ -1,8 +1,15 @@
 package br.com.viacep;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import com.github.uliss3s.ceputil.Util;
+
+import javax.json.Json;
+import javax.json.JsonObject;
+import javax.json.JsonValue;
+import java.util.*;
 
 /**
  * Classe para recuperar informações do WS do viacep.com.br
@@ -99,3 +106,4 @@ public class ClienteWs {
         return responseJO;
     }
 }
+
