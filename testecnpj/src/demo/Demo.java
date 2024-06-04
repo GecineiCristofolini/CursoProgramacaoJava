@@ -1,0 +1,22 @@
+package demo;
+
+import com.github.alexsandrospecht.util.ConsultaCnpj;
+
+public class Demo {
+
+    private static final String GOOGLE_CNPJ = "06990590000204";
+
+    public static void main(String[] args) {
+        System.out.println(ConsultaCnpj.consultaData(GOOGLE_CNPJ));
+
+        RetornoWrapper wp = ConsultaCnpj.consultaCnpj(GOOGLE_CNPJ);
+        System.out.println(wp.getCnpj());
+        System.out.println(wp.getNome());
+        System.out.println(wp.getAbertura());
+        System.out.println(wp.getStatus());
+
+        AtividadeWrapper aw = wp.getAtividade_principal().iterator().next();
+        System.out.println(aw.getCode());
+        System.out.println(aw.getText());
+    }
+}

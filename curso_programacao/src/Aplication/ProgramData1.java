@@ -44,8 +44,6 @@ public class ProgramData1 {
 		System.out.println("d10 = " + d10.toString());
 		System.out.println("d11 = " + d11.toString());
 		
-		Data sct = (Data) new Date();
-		System.out.println(sct);
 		
 	}
 

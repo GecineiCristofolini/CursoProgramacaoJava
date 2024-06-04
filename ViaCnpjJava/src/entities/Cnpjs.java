@@ -4,100 +4,242 @@ package entities;
 
 public class Cnpjs {
 	
+	private String cnpj;
+    private String razao_social;
+    private String nome_fantasia;
+    private String numero;
     private String cep;
-    private String logradouro;
     private String complemento;
+    private String cidade;
+    private String estado;
     private String bairro;
-    private String localidade;
-    private String uf;
-    private String ddd;
-    private String ibge;
-    private String gia;
-	
-    public Cnpjs() {
+    private String tipologradouro;
+    private String logradouro;
+    private String situcao;
+    private String inscricao_estadual;
+    
+    
+    
+    public Cnpjs () {
     	
     }
-    public Cnpjs(String cep, String logradouro, String complemento, String bairro, String localidade, String uf,
-			String ddd, String ibge, String gia) {
 
 
+
+	public Cnpjs(String cnpj, String razao_social, String nome_fantasia, String numero, String cep,
+			String complemento, String cidade, String estado, String bairro, String tipologradouro,
+			String logradouro, String situcao, String inscricao_estadual)
+	{
+		
+		this.cnpj = cnpj;
+		this.razao_social = razao_social;
+		this.nome_fantasia = nome_fantasia;
+		this.numero = numero;
 		this.cep = cep;
-		this.logradouro = logradouro;
 		this.complemento = complemento;
+		this.cidade = cidade;
+		this.estado = estado;
 		this.bairro = bairro;
-		this.localidade = localidade;
-		this.uf = uf;
-		this.ddd = ddd;
-		this.ibge = ibge;
-		this.gia = gia;
+		this.tipologradouro = tipologradouro;
+		this.logradouro = logradouro;
+		this.situcao = situcao;
+		this.inscricao_estadual = inscricao_estadual;
 	}
-	public String getCep() {
+
+
+
+	public String getCnpj()
+	{
+		return cnpj;
+	}
+
+
+
+	public void setCnpj(String cnpj)
+	{
+		this.cnpj = cnpj;
+	}
+
+
+
+	public String getRazao_social()
+	{
+		return razao_social;
+	}
+
+
+
+	public void setRazao_social(String razao_social)
+	{
+		this.razao_social = razao_social;
+	}
+
+
+
+	public String getNome_fantasia()
+	{
+		return nome_fantasia;
+	}
+
+
+
+	public void setNome_fantasia(String nome_fantasia)
+	{
+		this.nome_fantasia = nome_fantasia;
+	}
+
+
+
+	public String getNumero()
+	{
+		return numero;
+	}
+
+
+
+	public void setNumero(String numero)
+	{
+		this.numero = numero;
+	}
+
+
+
+	public String getCep()
+	{
 		return cep;
 	}
-	public void setCep(String cep) {
+
+
+
+	public void setCep(String cep)
+	{
 		this.cep = cep;
 	}
-	public String getLogradouro() {
-		return logradouro;
-	}
-	public void setLogradouro(String logradouro) {
-		this.logradouro = logradouro;
-	}
-	public String getComplemento() {
+
+
+
+	public String getComplemento()
+	{
 		return complemento;
 	}
-	public void setComplemento(String complemento) {
+
+
+
+	public void setComplemento(String complemento)
+	{
 		this.complemento = complemento;
 	}
-	public String getBairro() {
+
+
+
+	public String getCidade()
+	{
+		return cidade;
+	}
+
+
+
+	public void setCidade(String cidade)
+	{
+		this.cidade = cidade;
+	}
+
+
+
+	public String getEstado()
+	{
+		return estado;
+	}
+
+
+
+	public void setEstado(String estado)
+	{
+		this.estado = estado;
+	}
+
+
+
+	public String getBairro()
+	{
 		return bairro;
 	}
-	public void setBairro(String bairro) {
+
+
+
+	public void setBairro(String bairro)
+	{
 		this.bairro = bairro;
 	}
-	public String getLocalidade() {
-		return localidade;
-	}
-	public void setLocalidade(String localidade) {
-		this.localidade = localidade;
-	}
-	public String getUf() {
-		return uf;
-	}
-	public void setUf(String uf) {
-		this.uf = uf;
-	}
-	public String getddd() {
-		return ddd;
-	}
-	public void setddd(String unidade) {
-		this.ddd = unidade;
-	}
-	public String getIbge() {
-		return ibge;
-	}
-	public void setIbge(String ibge) {
-		this.ibge = ibge;
-	}
-	public String getGia() {
-		return gia;
-	}
-	public void setGia(String gia) {
-		this.gia = gia;
-	}
-	@Override
-	public String toString() {
-		return "Cep: " + cep + "\n"
-				+ "Logradouro: "+ logradouro + "\n"
-				+ "Complemento= " + complemento + "\n"
-				+ "Bairro= " + bairro + "\n"
-				+ "Localidade=" + localidade + "\n"
-				+ "Uf= " + uf  + "\n"
-				+ "DDD= " + ddd  + "\n"
-				+ "Ibge= " + ibge + "\n"
-				+ "Gia= " + gia +  "\n";
+
+
+
+	public String getTipologradouro()
+	{
+		return tipologradouro;
 	}
 
+
+
+	public void setTipologradouro(String tipologradouro)
+	{
+		this.tipologradouro = tipologradouro;
+	}
+
+
+
+	public String getLogradouro()
+	{
+		return logradouro;
+	}
+
+
+
+	public void setLogradouro(String logradouro)
+	{
+		this.logradouro = logradouro;
+	}
+
+
+
+	public String getSitucao()
+	{
+		return situcao;
+	}
+
+
+
+	public void setSitucao(String situcao)
+	{
+		this.situcao = situcao;
+	}
+
+
+
+	public String getInscricao_estadual()
+	{
+		return inscricao_estadual;
+	}
+
+
+
+	public void setInscricao_estadual(String inscricao_estadual)
+	{
+		this.inscricao_estadual = inscricao_estadual;
+	}
+
+
+
+	@Override
+	public String toString()
+	{
+		return "Cnpjs [cnpj=" + cnpj + ", razao_social=" + razao_social + ", nome_fantasia="
+				+ nome_fantasia + ", numero=" + numero + ", cep=" + cep + ", complemento=" + complemento
+				+ ", cidade=" + cidade + ", estado=" + estado + ", bairro=" + bairro
+				+ ", tipologradouro=" + tipologradouro + ", logradouro=" + logradouro + ", situcao="
+				+ situcao + ", inscricao_estadual=" + inscricao_estadual + "]";
+	}
+    
     
 
-}
+}    

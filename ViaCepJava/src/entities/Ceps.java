@@ -87,15 +87,15 @@ public class Ceps {
 	}
 	@Override
 	public String toString() {
-		return "Cep: " + cep + "\n"
-				+ "Logradouro: "+ logradouro + "\n"
-				+ "Complemento= " + complemento + "\n"
-				+ "Bairro= " + bairro + "\n"
-				+ "Localidade=" + localidade + "\n"
-				+ "Uf= " + uf  + "\n"
-				+ "DDD= " + ddd  + "\n"
-				+ "Ibge= " + ibge + "\n"
-				+ "Gia= " + gia +  "\n";
+		return "Cep: " + cep.toUpperCase() + "\n"
+				+ "Logradouro: "+ logradouro.toUpperCase() + "\n"
+				+ "Complemento: " + complemento + "\n"
+				+ "Bairro: " + bairro.toUpperCase() + "\n"
+				+ "Localidade: " + localidade.toUpperCase() + "\n"
+				+ "Uf: " + uf  + "\n"
+				+ "DDD: " + ddd  + "\n"
+				+ "Ibge: " + ibge + "\n"
+				+ "Gia: " + gia +  "\n";
 	}
 
     
